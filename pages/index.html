@@ -5,6 +5,67 @@
     <meta charset=""utf-8"/>
     <title>Our Awesome Page</title>
   </head>
-  <img src="../images/messi.jpeg"/>
+  <h1>Inline Element</h1>
+  <p>1. img tag</p>
+  <img alt="messi" title="This is a Messi Image" src="../images/messi.jpeg" />
+  <img
+    alt="messi_not_found"
+    title="This has no Messi Image"
+    src="../images/messi.jpegad"
+  />
+  <img
+    alt="messi_not_found"
+    title="This has no Messi Image"
+    src="../images/messi.jpegad"
+  />
+
+  <a href="https://www.youtube.com/results?search_query=messi">
+    <img
+      alt="messi_not_found but redirects to youtube"
+      title="This has no Messi Image"
+      src="../images/messi.jpegad"
+    />
+  </a>
+  <!-- Comment are placed in this way-->
+  <h1>Block Element</h1>
   <p>This is a paragraph.</p>
+  <p>
+    This is another paragraph but have large space but during rendering the
+    spaces are omitted. To preserve the spaces, you have another tag named
+    'pretag'.
+  </p>
+  <div><p>Paragraph inside a div.</p></div>
+  <div><p>Paragraph inside a div.</p></div>
+
+  <h2>Unordered List</h2>
+  <p>Every item in the unordered list is called <em>list item - <strong>li</strong></em></p>
+  <ul>
+    <li>Apple</li>
+    <li>Apple</li>
+    <li>Apple</li>
+    <li>Apple</li>
+  </ul>
+  <h2>Ordered List</h2>
+  <ol>
+    <li>Apple</li>
+    <li>Ball</li>
+  </ol>
+
+  <h2>Nested list</h2>
+  <p>List can have sub list. Here's the scenario of a coffee shop with their menu:</p>
+  <ul>
+    <li>Cook eggs
+      <ul>
+        <li>Omlette</li>
+        <li>Hard Boiled</li>
+      </ul>
+    </li>
+    <li>Milk
+      <ul>
+        <li>Oat milk</li>
+        <li>Rice milk</li>
+      </ul>
+    </li>
+  </ul>
+
 </html>
