@@ -9,8 +9,8 @@
   <h1>WAP Class Demo</h1>
   <h2>Inline Element</h2>
   <p>1. img tag</p>
-  <img alt="messi" title="This is a Messi Image" src="../images/messi.jpeg" />
-  <img
+  <img id="messi" alt="messi" title="This is a Messi Image" src="../images/messi.jpeg" />
+  <img 
     alt="messi_not_found"
     title="This has no Messi Image"
     src="../images/messi.jpegad"
@@ -28,8 +28,10 @@
       src="../images/messi.jpegad"
     />
   </a>
+
   <!-- Comment are placed in this way-->
   <h1>Block Element</h1>
+  <a href="https://www.youtube.com/results?search_query=messi">Messi's Youtube Video</a>
   <p>This is a paragraph.</p>
   <p>
     This is another paragraph but have large space but during rendering the
@@ -97,13 +99,66 @@
       <td>td - 2.3</td>
     </tr>
   </table>
-  <p>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni quis fugiat
-    praesentium tenetur harum totam cum natus labore laudantium. Harum ipsa
-    soluta id delectus voluptatem asperiores? Tempora, consectetur amet. Est.
-    
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni quis fugiat
-    praesentium tenetur harum totam cum natus labore laudantium. Harum ipsa
-    soluta id delectus voluptatem asperiores? Tempora, consectetur amet. Est.
+  <p id="p-1">
+    Paragraph 1: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
+    quis fugiat praesentium tenetur harum totam cum natus labore laudantium.
+    Harum ipsa soluta id delectus voluptatem asperiores? Tempora, consectetur
+    amet. Est. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
+    quis fugiat praesentium tenetur harum totam cum natus labore laudantium.
+    Harum ipsa soluta id delectus voluptatem asperiores? Tempora, consectetur
+    amet. Est.
   </p>
+
+  <pre> Some</pre>
+  <p class="even-p">
+    Paragraph 2: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
+    quis fugiat praesentium tenetur harum totam cum natus labore laudantium.
+    Harum ipsa soluta id delectus voluptatem asperiores? Tempora, consectetur
+    amet. Est. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
+    quis fugiat praesentium tenetur harum totam cum natus labore laudantium.
+    Harum ipsa soluta id delectus voluptatem asperiores? Tempora, consectetur
+    amet. Est.
+  </p>
+  <p>
+    Paragraph 3: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
+    quis fugiat praesentium tenetur harum totam cum natus labore laudantium.
+    Harum ipsa soluta id delectus voluptatem asperiores? Tempora, consectetur
+    amet. Est. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
+    quis fugiat praesentium tenetur harum totam cum natus labore laudantium.
+    Harum ipsa soluta id delectus voluptatem asperiores? Tempora, consectetur
+    amet. Est.
+  </p>
+  <p class="even-p" id="even-p-id">
+    Paragraph 4: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
+    quis fugiat praesentium tenetur harum totam cum natus labore laudantium.
+    Harum ipsa soluta id delectus voluptatem asperiores? Tempora, consectetur
+    amet. Est. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
+    quis fugiat praesentium tenetur harum totam cum natus labore laudantium.
+    Harum ipsa soluta id delectus voluptatem asperiores? Tempora, consectetur
+    amet. Est.
+  </p>
+  <p>
+    Paragraph 5: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
+    quis fugiat praesentium tenetur harum totam cum natus labore laudantium.
+    Harum ipsa soluta id delectus voluptatem asperiores? Tempora, consectetur
+    amet. Est. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
+    quis fugiat praesentium tenetur harum totam cum natus labore laudantium.
+    Harum ipsa soluta id delectus voluptatem asperiores? Tempora, consectetur
+    amet. Est.
+  </p>
+
+  <div class="parent">
+    Parent
+    <div class="child">
+      Child
+      <div class="grand">Grand div</div>
+    </div>
+  </div>
+
+  <!-- Let's not do in this way. Why? SOC - Separation of Concern. We'll use external stylesheet for CSS -->
+  <!-- <style>
+    body {
+      background-color: purple;
+    }
+  </style> -->
 </html>
