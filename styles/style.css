@@ -1,0 +1,41 @@
+/* Basic Demo on CSS */
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-image: url(../images/background.jpeg);
+    background-repeat: repeat-x;
+    background-position: 370px 180px;
+    font-size: 16px;
+}
+
+p {
+    color: white;
+    background-color: green;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    /* CSS properties for text */
+    text-align: center;
+    text-indent: 10px;
+    border: 3px solid red;
+    border-radius: 5px 10px 30px 60px;
+}
+
+h1 {
+    color: rgb(128, 0, 196);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 50px;
+    border: 5px solid;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    text-decoration: underline overline;
+    word-spacing: 10px;
+    border-left: thick dotted #CC0088;
+    border-bottom-color: rgb(0, 128, 128);
+    border-bottom-style: dashed;
+}
