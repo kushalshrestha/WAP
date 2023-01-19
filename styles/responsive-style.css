@@ -1,0 +1,33 @@
+#header {
+    grid-area: h;
+}
+
+#nav {
+    grid-area: n;
+}
+
+#content {
+    grid-area: c;
+}
+
+#side {
+    grid-area: s;
+}
+
+#footer {
+    grid-area: f;
+}
+
+
+#container {
+    display: grid;
+    grid-template-areas: 
+        "h h h h"
+        "h h h h"
+        "n n n n"
+        "c c c s"
+        "c c c s"
+        "c c c s"
+        "f f f f"
+        "f f f f";
+}

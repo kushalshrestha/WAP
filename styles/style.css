@@ -120,3 +120,20 @@ a > img{
     opacity: 0.5;
     
 }
+
+input[type="text"] {
+    background-color: #FF0000;
+}
+
+select optgroup{
+    background: blue;
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+}
+/* media query */
+@media screen and (max-width: 600px) {
+    #messi{
+        opacity: 1;
+    }
+}

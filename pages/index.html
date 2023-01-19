@@ -5,12 +5,18 @@
     <meta charset="utf-8" />
     <title>Our Awesome Page</title>
     <link href="../styles/style.css" type="text/css" rel="stylesheet" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
   <h1>WAP Class Demo</h1>
   <h2>Inline Element</h2>
   <p>1. img tag</p>
-  <img id="messi" alt="messi" title="This is a Messi Image" src="../images/messi.jpeg" />
-  <img 
+  <img
+    id="messi"
+    alt="messi"
+    title="This is a Messi Image"
+    src="../images/messi.jpeg"
+  />
+  <img
     alt="messi_not_found"
     title="This has no Messi Image"
     src="../images/messi.jpegad"
@@ -31,7 +37,9 @@
 
   <!-- Comment are placed in this way-->
   <h1>Block Element</h1>
-  <a href="https://www.youtube.com/results?search_query=messi">Messi's Youtube Video</a>
+  <a href="https://www.youtube.com/results?search_query=messi"
+    >Messi's Youtube Video</a
+  >
   <p>This is a paragraph.</p>
   <p>
     This is another paragraph but have large space but during rendering the
@@ -79,6 +87,61 @@
       </ul>
     </li>
   </ul>
+
+  <h1>FORMS</h1>
+  <form action="http://www.google.com/search" type="get">
+    <label>Search box (try clicking here, won't do anything</label>
+    <br /><label for="q"
+      >Search Box: (click here, for value will look to id"</label
+    >
+    <br />
+    <input id="q" type="text" name="q" placeholder="Search anything" />
+
+    <input type="checkbox" name="m" checked /> Male
+    <input type="checkbox" name="f" /> Female
+
+    <fieldset>
+
+      <label>
+        Gender: <input type="radio" name="gender" checked /> Male
+        <input type="radio" name="gender" /> Female</label
+      >
+    </fieldset>
+
+
+    <select> Top Players to Search
+      <option>Messi</option>
+      <option>Ronaldo</option>
+      <option>Neymar</option>
+      <option>Mbappe</option>
+      <option>Haaland</option>
+      <option selected>Kushal</option>
+    </select>
+
+    <select size="6" multiple> Top Players to Search
+      <optgroup>Current 
+        <option>Messi</option>
+        <option>Ronaldo</option>
+        <option>Neymar</option>
+        
+      </optgroup>
+      <optgroup label="xx">
+        <option>Mbappe</option>
+        <option>Haaland</option>
+        <option selected>Kushal</option>
+
+      </optgroup>
+    </select>
+
+    <input type="hidden" name="q" value="Kushal Shrestha">
+
+    <textarea rows="10" cols="10"></textarea>
+
+    <input type="submit" value="search" />
+    <input type="reset" value="Clear Form" />
+
+    <input type="button" value="This button is not clickable" />
+  </form>
 
   <h2>Table</h2>
   <p>Table works row by row, so we use <strong>tr</strong> tag</p>
