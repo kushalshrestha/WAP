@@ -1,0 +1,17 @@
+/* Basic Demo on CSS */
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-image: url(../images/background.jpeg);
+    background-repeat: repeat-x;
+    background-position: 370px 180px;
+    font-size: 16px;
+    /* background-attachment: fixed; */
+}
+
+
+.p-clicked{
+    background-color: orange;
+}
